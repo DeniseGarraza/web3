@@ -63,15 +63,19 @@ header {
     background-size: cover;
 }
 
+
 .title {
     margin-bottom: 40px;
-    font-size: 60%;
+    margin-top: 20px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
 }
-
-p {
+.text-container {
+    color: black
+}
+.text-general {
     margin-bottom: 40px;
     font-size: 18px;
     color: white;
@@ -79,9 +83,11 @@ p {
 
 }
 
+
 .btn {
     display: inline-block;
     margin-top: 15px;
+    margin: 15px;
     padding: 10px 40px;
     border: 2px solid #e7a5d3 ;
     color: white;
@@ -134,6 +140,7 @@ p {
 .box-container .box i {
     height: 3rem;
     width: 3rem;
+    margin-top: 10px;
     line-height: 3rem;
     text-align: center;
     border-radius: 50%;
@@ -155,6 +162,9 @@ p {
     font-size: 16px;
 }
 
+h3 {
+    margin-top: 10px;
+}
 .about {
     background: black;
 }
@@ -166,11 +176,13 @@ p {
     text-align: center;
 }
 
-.contat {
+.contact {
     padding-top: 20px;
-    background-color: aqua;
+    background-color: black;
     padding-bottom: 0;
+    
 }
+
 
 @media (max-width: 768px){
     .title{
